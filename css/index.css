@@ -1,0 +1,192 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 750px) {
+  font-size: 37.5px !important;
+}
+a {
+  text-decoration: none;
+}
+.wrap {
+  background-color: #fff;
+  padding-bottom: 1.1467rem;
+}
+header {
+  height: 2.1333rem;
+  border-bottom: solid 0.0267rem #aeaeae;
+  text-align: center;
+  line-height: 2.1333rem;
+  font-size: 0.9333rem;
+  color: #1c1c1c;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 1.1733rem;
+  padding-bottom: 1.6rem;
+}
+nav img {
+  width: 3.7067rem;
+  height: 3.7067rem;
+}
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+  font-size: 0.6667rem;
+  text-align: center;
+  color: #707070;
+}
+nav a:nth-child(-n+3) {
+  margin-bottom: 1.6533rem;
+}
+.go {
+  margin: 0 0.2667rem;
+}
+.content {
+  padding: 1.0667rem 0.64rem;
+  margin-top: 0.2667rem;
+  background-color: #fff;
+}
+.content .con-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.0133rem;
+  margin-bottom: 0.9067rem;
+  line-height: 1.0133rem;
+}
+.content .con-hd h4 {
+  font-size: 0.7467rem;
+  color: #333;
+}
+.content .con-hd h4 .icon {
+  display: inline-block;
+  width: 1.0133rem;
+  height: 1.0133rem;
+  vertical-align: bottom;
+}
+.content .con-hd .more {
+  font-size: 0.5867rem;
+  color: #999999;
+}
+.get_job_focus {
+  position: relative;
+  --swiper-navigation-color: #000;
+  --swiper-navigation-size: 0.7rem;
+  /* 设置按钮大小 */
+}
+.get_job_focus .swiper-container {
+  width: 14.4rem;
+  height: 100%;
+}
+.get_job_focus .swiper-slide {
+  text-align: center;
+  font-size: 0.48rem;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  border-radius: 0.4rem;
+  transform: scale(0.8) rotatex(45deg);
+  opacity: 0.6;
+  /* 单独设置按钮颜色 */
+}
+.get_job_focus .swiper-slide a {
+  width: 9.0133rem;
+  height: 10.0267rem;
+}
+.get_job_focus .swiper-slide a img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+.get_job_focus .swiper-slide p {
+  width: 9.0133rem;
+  font-size: 0.6667rem;
+  color: #333;
+  display: block;
+  margin-top: 0.6667rem;
+}
+.get_job_focus .swiper-slide-active,
+.get_job_focus .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.study .swiper {
+  width: 100%;
+  height: 100%;
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;
+  /* 两种都可以 */
+  padding: 0.2667rem;
+}
+.study .swiper-slide {
+  width: 7.7333rem;
+  height: 9.0667rem;
+  border-radius: 0.2667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  background: #fff;
+}
+.study .swiper-slide h5 {
+  font-size: 0.6667rem;
+  margin: 0.5333rem 0;
+  font-weight: normal;
+  padding: 0 0.2667rem;
+}
+.study .swiper-slide p {
+  font-size: 0.6933rem;
+  color: #ff6600;
+  padding: 0 0.2667rem;
+}
+.con-study {
+  padding-bottom: 3.7333rem;
+}
+.footer {
+  position: fixed;
+  left: 0 ;
+  bottom: 0;
+  background-color: #fff;
+  height: 2.9333rem;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  padding-top: 0.5067rem;
+  border-top: 1px solid #ccc;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .item img {
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer .item p {
+  margin-top: 0.2667rem;
+  font-size: 0.5867rem;
+  color: #666666;
+}
