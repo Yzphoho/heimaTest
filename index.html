@@ -14,7 +14,7 @@
 </head>
 
 <body>
-   
+
     <section class="wrap">
         <header class="header">黑马面面</header>
         <nav class="nav">
@@ -71,16 +71,16 @@
                         <a href="#"><img src="images/3.jpg" alt=""></a>
                         <p>老师教你应对面试技巧</p>
                     </div>
-                 </div>
-               
+                </div>
+
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
             </div>
         </div>
     </section>
     <!-- Swiper -->
-   
-    <section class="content">
+
+    <section class="content con-study">
         <div class="con-hd">
             <h4><span class="icon"><img src="icons/i1.png" alt=""></span>
                 充电学习</h4>
@@ -89,50 +89,81 @@
         <div class="study">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+
+                    <div class="swiper-slide">
+                        <img src="images/pic1.png" alt="">
+                        <h5>说低调英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic2.png" alt="">
+                        <h5>说低调英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic1.png" alt="">
+                        <h5>说低调英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic2.png" alt="">
+                        <h5>说低调英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    
                 </div>
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
             </div>
         </div>
     </section>
-
+    <footer class="footer">
+        <a href="#" class="item">
+            <img src="icons/home.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="#" class="item">
+            <img src="icons/ms.png" alt="">
+            <p>模拟面试</p>
+        </a>
+        <a href="#" class="item">
+            <img src="icons/user.png" alt="">
+            <p>技术面试</p>
+        </a>
+        <a href="#" class="item">
+            <img src="icons/net.png" alt="">
+            <p>我的主页</p>
+        </a>
+        
+    </footer>
     <script src="js/flexible.js"></script>
     <script src="js/swiper.min.js"></script>
     <script>
-      
-        (function(){
-                var swiper = new Swiper('.swiper-container', {
-                    slidesPerView: 2,
-                    spaceBetween: 30,
-                    centeredSlides: true,
-                    loop: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-})()
 
-// 第二个函数的轮播图
-           
-      (function () {
-                var swiper = new Swiper(".mySwiper", {
-              slidesPerView: 3,
-              spaceBetween: 30,
-              pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-              },
-          });
-            })()
+        (function () {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        })();
+
+        // 第二个函数的轮播图
+
+        (function () {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        })();
     </script>
 </body>
 
